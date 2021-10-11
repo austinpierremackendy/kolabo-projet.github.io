@@ -1,0 +1,400 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(177, 123, 54);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   /* background-color:#24252A;*/
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#000000;
+}
+
+.logo{
+    cursor: none;
+    width: 50px;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+   
+}
+
+.nav li a{
+    transition: all 0.4s ease 0s;
+    padding-left: 200px;
+} 
+
+.nav li a:hover{
+   color: #239bb9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #239bb9;
+   border: none;
+   border-radius: 50px;
+   cursor:pointer;
+   transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,1689,0.8);
+}
+
+
+nav{
+  width: 100%;
+  height: 15px;
+}
+
+article{
+  width: 100%;
+height: 400px;
+}
+.body{
+	
+  width: 99.9%;
+  height: 400px;
+   margin: 1px;
+  
+}
+.body img{
+width: 1260px;
+}
+
+.body #slider{
+overflow: hidden;
+}
+.body #slider figure{
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 15s slider infinite;
+}
+.body #slider figure img{
+width: 10%;
+float: left;
+height: 400px;
+}
+
+@keyframes slider{
+0%{
+  left: 0;
+}
+20%{
+  left: 0;
+}
+25%{
+  left: -100%;
+}
+45%{
+  left: -100%;
+}
+}
+
+.coupe img{
+  float: left;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.coupe img{
+  float: center;
+  margin-left: 100px;
+}
+.coupe img{
+  float: right;
+  margin-left: 100px;
+  margin-right: 150px;
+}
+footer{
+  width: 100%;
+  color: blue;
+}
+
+
+
+table h1{
+    font-family: verdana, Geneva, tahoma, sans-serif;
+}
+table{
+  margin-top: 60px;
+  width: 75%;
+  border-collapse: collapse;
+  position: absolute;
+  left: 15%;
+
+  background-color: rgb(77, 75, 74)  ;
+ 
+}
+
+td,th{
+  border: 0.5px solid rgba(128, 241, 241, 0.096);
+  text-align: center;
+  border-radius: 5px;
+}
+th{
+  background-color:  rgb(6, 65, 30);
+  color: #f0ecec;
+  height: 50px;
+}
+
+td{
+  font-family: 'lato';
+  font-weight: bold;
+  width: 70px;
+  margin-bottom: 40px;
+  height: 160px;
+  color: #ffffff;
+
+}
+td img{
+  width: 70px;
+  height: 70px;
+  border-radius: 10%;
+}
+
+
+
+
+.bloc3{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  width:100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 270px;
+}
+
+
+.leftbox{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'lato';
+  font-size: 17px;
+}
+.leftbox a{
+  text-decoration: none;
+  border: 1px solid rgb(5, 134, 59);
+  border-radius: 28px;
+  padding: 18px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgb(5, 134, 59);
+  color: #fff;
+  font-size: 0.9em;
+}
+.leftbox a:hover{
+  background-color: #fff;
+  color: purple;
+  font-size: 0.7em;
+}
+.leftbox h3{
+  font-size: 1.5em;
+  color:gray;
+  font-family: 'lato';
+  font-weight: bold;
+}
+.leftbox p{
+  text-align: center;
+  word-spacing: normal;
+  color: peru;
+}
+
+
+.rightbox{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.rightbox .box1{
+  width: 50%;
+  background-image: url('../Images/balon1_files/stade.jpg');
+  height: 250px;
+  background-size: cover;
+}
+.rightbox .box2{
+  width: 50%;
+  height: 250px;
+  background-image: url('../Images/balon1_files/champion1.jpg');
+  background-position: top;
+  background-size: cover;
+  margin-left: 15px;
+  text-align: center;
+}
+.box2 p{
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-family: 'lato';
+  font-size: 0.7em;
+  background-color:purple;
+}
+.box1 p{
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-family: 'lato';
+  font-size: 0.7em;
+  background-color: rgb(27, 114, 19);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+   line-height: 1.5;
+   font-family: 'poppins', sans-serif;
+   margin-top: 800px;
+}
+
+.contenu{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.range{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;;
+}
+
+.colonne{
+    width: 25%;
+    padding: 0 15px; 
+
+}
+
+.colonne h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.colonne h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.colonne ul li:not(:last-child){
+      margin-bottom: 10px;
+}
+
+.colonne ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.4s ease;
+}
+
+.colonne ul li a:hover{
+       color: #ffffff;
+       padding-left: 10px;
+}
+
+.colonne .lien a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color:  rgba(255,255,255,0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.4s ease;
+}
+.colonne .lien a:hover{
+     color: #24262b;
+     background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .colonne{
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+    body{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(177, 123, 54);
+      background-size: cover;
+  }
+  .nav li a{
+    transition: all 0.4s ease 0s;
+    padding-left: 50px;
+} 
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+}
+
+@media(max-width: 574px){
+    .colonne{
+        width: 100%;
+
+    }
+  }

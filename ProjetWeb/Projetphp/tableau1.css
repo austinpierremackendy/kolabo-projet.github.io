@@ -1,0 +1,197 @@
+h1 table{
+    font-family: verdana, Geneva, tahoma, sans-serif;
+}
+ *{
+    color: black;
+  text-decoration: none;
+  
+}
+body section{
+    height: 2100px;
+    background-image: url('../image5/champion3.jpg');
+    background-size: cover;
+}
+body section .back{
+   
+    background-image: url('../image5/champion3.jpg');
+    background-size: cover;
+}
+
+body .img{
+    height: 615px ;
+    background-image: url('../image5/champion2.jfif');
+    background-size: cover;
+}
+body .final{
+    height: 630px;
+    background-image: url('../image5/cup10.jfif');
+    background-size: cover;
+}
+body .im{
+    height: 630px;
+    background-image: url('../image5/champion2.jfif');
+    background-size: cover;
+}
+body .image{
+    background-image: url('../image5/champion3.jpg');
+    background-size: repeat;
+    height: 950px;
+}
+body input{
+    background-color: rgb(2, 196, 255);
+}
+body button{
+    background-color: rgb(2, 196, 255);
+}
+table{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 480px;
+}
+.table17{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 150px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 230px;
+}
+.table2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1000px;
+}
+.table3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1600px;
+}
+.table4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2200px;
+}
+.table5{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+tr{
+     transition: all .2s ease-in;
+     cursor: pointer;
+}
+th,td{
+    padding: 12px;
+    text-align: left;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+   background-color: white;
+}
+
+#tete{
+    color: #fff;
+
+}
+
+tr th{
+    background-color: rgb(0, 183, 255);
+}
+
+h2{
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(0, 183, 255);;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+}
+h3{
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px;
+    margin-top: 430px;
+}
+h4{
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px;
+    margin-top: 500px;
+}
+
+
+tr:hover{
+    background-color: #000000;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px){
+    table{
+        width: 90%;
+    }
+    .table{
+        width: 90%;
+    }
+    .table2{
+        width: 90%;
+    }
+    .table3{
+        width: 90%;
+    }
+}
+

@@ -1,0 +1,605 @@
+ @font-face {
+    font-family: "lato";
+    src: url('../font/lato/Lato-Hairline.ttf');
+}
+@font-face {
+    font-family: "lato";
+    src: url('../font/lato/Lato-Light.ttf');
+}
+*{
+  box-sizing: border-box;
+}
+    body{
+      font-family: 'lato';
+      margin: 0px;
+      padding: 0px;
+      background-color:pink;
+    }
+    .body{
+      width: auto;
+      height: auto;
+    }
+    /*Css header*/
+ header{
+      width: 100%;
+      height: 70px;
+      background-color:pink;
+      text-align: center;
+      color: white;
+  }
+header .source img{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: -25px;
+}
+/*Css nav*/
+.menu{
+  position: sticky;
+  background-color: wheat;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 4;
+}
+.nav{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.nav li{
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #c1491e;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  background-color: gray;
+ }
+li a{
+  color: white;
+  text-decoration: none;
+  
+}
+/* Css article*/
+.skewedBox{
+  width: 100%;
+  z-index: 2;
+  background-image: url('../Image/bib.jpg');
+  padding: 100px 0;
+  border-radius: 10%;
+  background-size: cover;
+  }
+.container{
+  padding: 180px 100px;
+  transform: skew(0deg, 10deg);
+  color:palevioletred;
+}
+.container h1{
+  margin: 0;
+  padding: 5px 0;
+  font-size: 3em;
+}
+
+.container p{
+  font-size: 1.6em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  width: 50%;
+  color: gray;
+}
+.bloc2{
+  margin-top: -70px;
+  padding: 0px 140px 100px;
+  color: #fff;
+  font-family: arial;
+  text-align: right;
+}
+.bloc2-1{
+  color: wheat;
+}
+
+.bloc2 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.bloc2 p{
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+  width: 100%;
+  text-align: justify;
+}
+.bloc3{
+    background-color: white;
+    padding: 20px;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.leftbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'lato';
+}
+.leftbox a{
+    text-decoration: none;
+    border: 1px solid peru;
+    border-radius: 28px;
+    padding: 18px;
+    text-align: center;
+    background-color: peru;
+    color: #fff;
+    font-size: 0.6em;
+}
+.leftbox a:hover{
+    background-color: #fff;
+    color: purple;
+    font-size: 0.7em;
+}
+.leftbox h3{
+    font-size: 1.5em;
+    color:gray;
+    font-family: 'lato';
+    font-weight: bold;
+}
+.leftbox p{
+    text-align: center;
+    word-spacing: normal;
+    color: peru;
+}
+.rightbox{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.mainContainer{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: white;
+  display: flex;
+}
+.one, .two{
+  flex:1;
+}
+.one{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Image/bible5.webp");
+}
+.one:hover{
+   flex: 1.3;
+}
+.two{
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Image/image2.jpg");
+}
+.two:hover{
+   flex: 1.3;
+}
+
+.contenu{
+  width: 100%;
+  height: 100%;
+}
+.one .contenu{
+  background: linear-gradient(to right, #00000094, #84001887);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.two .contenu{
+  background: rgba(0,0,0,.4) ;
+}
+.one .contenu h1,p{
+  color: white;
+  margin: 0px 7%;
+}
+one .contenu p{
+  font-size: 1.2em;
+  text-align: justify;
+  max-width: 70%;
+}
+.one .contenu h1{
+  font-size: 2.5em;
+}
+.two .contenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ban{
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(179, 93, 93);
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'lato';
+}
+.videopart{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.listVideo{
+  width: 75%;
+  background-color: rgb(85, 67, 70);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div video{
+  width: 100%;
+  margin-bottom: 25px;
+  border-bottom: 8px solid #e94c26;
+  border-radius: 15px;
+}
+.palmares{
+  width: 15%;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: rgb(214, 23, 23);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.palmares img{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 4px solid #e94c26;
+}
+.palmares div{
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(250, 125, 9, 0.849);
+  color: wheat;
+  font-size: 1.2em;
+  font-family: 'lato';
+  text-align: center;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.rightbox .box1{
+    width: 50%;
+    background-image: url('../Image/bible1.png');
+    height: 250px;
+    background-size: cover;
+}
+.rightbox .box2{
+    width: 50%;
+    height: 250px;
+    background-image: url('../Image/bible2.jpg');
+    background-position: top;
+    background-size: cover;
+    margin-left: 15px;
+    text-align: center;
+}
+.box2 p{
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-family: 'lato';
+    font-size: 0.7em;
+    background-color:purple;
+}
+.box1 p{
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(red, green, blue);
+    font-family: 'lato';
+    font-size: 0.7em;
+    background-color: peru;
+}
+.myCover{
+    width: 100%;
+    height: 350px;
+    margin-top: -22px;
+    background-image: url('../Image/bible-ciel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myCover p{
+    font-size: 2em;
+    color: peru;
+    font-weight: bold;
+}
+.myCover a{
+    text-decoration: none;
+    padding: 10px;
+    color: peru;
+    background-color: #fff;
+    border: 1px solid #bebe;
+    border-radius: 10px;
+}
+.myCover a:hover{
+    background-color: peru;
+    color: #fff;
+}
+
+.cover{
+  width: 100%;
+  max-width:100%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('../media/Images/nospizzaimage.jpg');
+  background-size: cover;
+  background-position: top;
+  color: #ff6106;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: 'lato';
+  font-size: 3.1em;
+}
+
+.list{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+  width: 75%;
+  border-collapse: collapse;
+}
+td,th{
+  border: 1px solid black;
+  text-align: center;
+}
+th{
+  background-color: black;
+  color: rgb(240, 17, 55);
+}
+td{
+  font-family: 'lato';
+  font-weight: bold;
+  width: 70px;
+  margin-bottom: 40px;
+}
+td img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+td button{
+  padding: 5px;
+  background-color: rgb(240, 17, 55);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+button a{
+  color: white;
+  text-decoration: none;
+  font-family: 'lato';
+}
+
+
+
+
+
+
+/* Css footer*/
+
+footer{
+  background-color: rgb(66, 56, 59);
+  color: #c1491e;
+}
+.footer{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot1{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:peru;
+}
+.appMobile{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 15px;
+  margin-top:20px;
+  border: 1px solid #ffb81c;
+  border-radius: 30px;
+  background-color: #ffb81c;
+}
+.appMobile p{
+  color: peru;
+  font-size: 1em;
+}
+.copy{
+  width: 100%;
+  height: 50px;
+  color: peru;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+#footer{
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  clear: both;
+  color: #c1491e;
+  float: left;
+}
+.propo{
+  float: left;
+  margin: 10px 50px;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+.propo ul li a{
+  color: #c1491e;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.propo ul li a:hover{
+  background-color: gray;
+ }
+
+h4{margin: 10px 40px;}
+#inu{
+  clear: both;
+}
+#inu p{
+  text-align: center;
+  color: #c1491e;
+}
+
+/*Css pour les medias*/
+  @media screen and (max-width : 960px){
+      .header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav li{
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+      .container h1{
+        margin: 0;
+        padding: 0px 0;
+        font-size: 2.0em;
+      }
+
+      .container p{
+        font-size: 1.3em;
+        margin: 0;
+        padding: 5px;
+        width: 80%;
+      }
+      .skewedBox{
+        width: 100%;
+        margin: 0;
+      }
+      .container{
+        width: 80%;
+        padding: 100px 80px;
+        margin: 0;
+      }
+      .bloc2{
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+      }
+      .bloc2 h1{
+        font-size: 1.9em;
+      }
+      .bloc3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .rightbox{
+          width: 100%;
+          display: flex;
+      }
+      .appMobile p{
+        font-size: 0.6em;
+      }
+      .imgs{
+        display: flex;
+      }
+     
+      
+      .videopart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .palmares{
+        width: 100%;
+        margin:0;
+        padding: 0;
+      }
+
+      .container h1{
+        margin: 0;
+        padding: 0px 0;
+        font-size: 2.0em;
+      }
+
+      .container p{
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+      }
+      .container{
+        width: 100%;
+        padding: 100px 80px;
+        margin: 0;
+      }
+      
+}

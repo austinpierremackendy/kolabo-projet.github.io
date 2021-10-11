@@ -1,0 +1,131 @@
+h1 table{
+    font-family: verdana, Geneva, tahoma, sans-serif;
+   
+}
+*{
+    color: black;
+}
+
+table .bouton p {
+     text-align: center;
+}
+table{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid  black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.table{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 380px;
+}
+.table2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 800px;
+}
+.table3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 1300px;
+}
+.table4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2100px;
+}
+.table5{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2600px;
+}
+
+tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+    text-align: center;
+}
+/* th,td{
+   padding: 12px;
+   text-align: center;
+   border-bottom: 1px solid #ddd;
+} */
+
+td{
+    text-align: center;
+}
+#tete{
+   background-color: black;
+   color: #fff;
+  
+}
+
+
+
+h2{
+   font-weight: 600;
+   text-align: center;
+   background-color: black;
+   color: #fff;
+   padding: 10px 0px;
+}
+
+h3{
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px;
+    margin-top: 430px;
+}
+h4{
+    font-weight: 600;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px;
+    margin-top: 500px;
+} 
+
+ 
